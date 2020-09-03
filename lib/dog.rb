@@ -17,7 +17,7 @@ def breed
 end 
 end 
   
-fido = Dog.new("Fido")
+sawyer = Dog.new("Sawyer")
 
 class Dog
  def initialize(name, breed = "Mutt")
@@ -25,4 +25,4 @@ class Dog
   @breed = breed
 end
 end
-fido = Dog.new("Fido")
+sawyer = Dog.new("Sawyer")
